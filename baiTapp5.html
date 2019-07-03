@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>baiTap5</title>
+</head>
+<body>
+<script>
+    let x = prompt("nhap ten ngoi sao: ");
+    let ngoisao =["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+    let chomsao =["UrsaMinor", "Tarurus", "Cygnus", "Lyra", "Aquila", "UrsaMajor", "Leo"];
+    function match() {
+        for(i=0;i<chomsao.length;i++){
+            if(x=== ngoisao[i]){
+                alert(chomsao[i]);
+            }
+            else {alert("ngoi sao ban nhap khong co trong danh sach chom sao");}
+        }
+
+
+    }
+    match();
+
+</script>
+</body>
+</html>
